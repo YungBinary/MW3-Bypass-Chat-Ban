@@ -16,6 +16,7 @@ taskkill /f /IM Battle.net.exe
 taskkill /f /IM cod.exe
 taskkill /f /IM codCrashHandler.exe
 taskkill /f /IM cod22-cod.exe
+taskkill /f /IM cod23-cod.exe
 taskkill /f /IM bootstrapper.exe
 taskkill /f /IM bootstrapperCrashHandler.exe
 taskkill /f /IM steam.exe
@@ -30,7 +31,7 @@ set /a CURRENTYEAR=year
 echo Setting system date to 1 month ago: %LASTMONTH%-%CURRENTDAY%-%CURRENTYEAR%
 date %LASTMONTH%-%CURRENTDAY%-%CURRENTYEAR%
 start "" "C:\Program Files (x86)\Battle.net\Battle.net.exe"
-echo Start Cod now in the Battle net launcher and
+echo Start Cod now in the Battle net launcher and once you've loaded into MW3 come back to this window and 
 pause
 echo Restoring date to %CURRENTMONTH%-%CURRENTDAY%-%CURRENTYEAR%
 date %CURRENTMONTH%-%CURRENTDAY%-%CURRENTYEAR%
